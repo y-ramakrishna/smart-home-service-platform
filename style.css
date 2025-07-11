@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+  }
+  .container, section {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  input, select, button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #0056b3;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #007BFF;
+    color: white;
+    padding: 15px 20px;
+  }
+  .stats {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    min-width: 180px;
+    text-align: center;
+  }
+  .grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  .servant-card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+  }
+  .dark-mode {
+    background: #121212;
+    color: #eee;
+  }
+  .dark-mode header {
+    background: #1e1e1e;
+  }
+  .dark-mode .card, .dark-mode .servant-card {
+    background: #222;
+    color: #eee;
+    border-color: #444;
+  }
