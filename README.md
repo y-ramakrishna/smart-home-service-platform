@@ -6,6 +6,7 @@ This project, "A Smart Home Service Platform," focuses on creating an efficient 
 The core idea is to provide an innovative solution that improves convenience, trust, and productivity in households. It addresses the challenges of balancing work and domestic duties in today's busy lifestyles.
 
 Tech Stack Used:
+
 The system is built with a specific set of technologies:
 
 User Interface: React.js is used for the frontend, creating the user-facing part of the application.
@@ -13,6 +14,7 @@ User Interface: React.js is used for the frontend, creating the user-facing part
 Backend API: Express.js handles the business logic on the server side.
 
 Database: MySQL is utilized for storing user and worker data
+
 Usage:
 
 The platform streamlines the process of finding and hiring household help. Users can:
